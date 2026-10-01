@@ -8,7 +8,9 @@ import { Header } from "../components/Header/header";
 import { Hero } from "../components/Hero/hero";
 import { ProcessStepper } from "../components/Stepper/ProcessStepper";
 import { SituationCards } from "../components/SituationCards/situationCard";
+import { DocumentsSection } from "../components/Documents/documents";
 import { Footer } from "../components/Footer/footer";
+
 
 import LocationCityOutlinedIcon from "@mui/icons-material/LocationCityOutlined";
 import { InformationCard } from "../components/InformationCard/InformationCard";
@@ -113,6 +115,8 @@ export function Home() {
         </Box>
 
         <SituationCards />
+
+        <DocumentsSection />
       </main>
 
       <Footer />

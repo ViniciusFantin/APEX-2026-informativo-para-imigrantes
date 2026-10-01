@@ -42,3 +42,26 @@ export const processSteps: ProcessStep[] = [
       "Após o processo, será emitida a Carteira de Registro Nacional Migratório.",
   },
 ];
+
+export const requiredDocuments = [
+  {
+    title: "Documento de identificação",
+    description:
+      "Passaporte ou documento de identificação oficial aceito pelas autoridades brasileiras.",
+  },
+  {
+    title: "Documentos civis",
+    description:
+      "Certidões de nascimento, casamento ou outros documentos que comprovem sua situação civil, quando necessários.",
+  },
+  {
+    title: "Antecedentes criminais",
+    description:
+      "Certidão ou documento equivalente, quando exigido.",
+  },
+  {
+    title: "Documentos estrangeiros",
+    description:
+      "Podem estar sujeitos às regras de legalização, apostilamento e tradução juramentada.",
+  },
+];
